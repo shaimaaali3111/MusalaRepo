@@ -4,13 +4,33 @@
   <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="regression Test(failed)">
     <classes>
-      <class name="tests.ContacUsTest2withCSV">
+      <class name="tests.CompanyTest">
         <methods>
-          <include name="fillContactUsForm"/>
+          <include name="verifyFacebookPage"/>
           <include name="startDriver"/>
           <include name="ScreenshotOnfailure"/>
         </methods>
-      </class> <!-- tests.ContacUsTest2withCSV -->
+      </class> <!-- tests.CompanyTest -->
+      <class name="tests.ApplyTest">
+        <methods>
+          <include name="fillApplyForm"/>
+          <include name="OpenApplyPopup"/>
+          <include name="filterOpenPositionsBySkopje"/>
+          <include name="filterOpenPositionsBySofia"/>
+          <include name="startDriver"/>
+          <include name="ScreenshotOnfailure"/>
+          <include name="openCareerTab"/>
+        </methods>
+      </class> <!-- tests.ApplyTest -->
+      <class name="tests.CreersTest">
+        <methods>
+          <include name="checkItemesDisplay"/>
+          <include name="naviagteToCareer"/>
+          <include name="startDriver"/>
+          <include name="ScreenshotOnfailure"/>
+          <include name="naviagteToPosition"/>
+        </methods>
+      </class> <!-- tests.CreersTest -->
     </classes>
   </test> <!-- regression Test(failed) -->
 </suite> <!-- Failed suite [musalaSoft Suite] -->
