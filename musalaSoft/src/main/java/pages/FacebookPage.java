@@ -11,7 +11,7 @@ public class FacebookPage extends PageBase {
 		
 	}
 	
-	@FindBy(xpath ="//circle[@class='mlqo0dh0 georvekb s6kb5r3f']")
+	@FindBy(xpath ="//g[@mask='url(#jsc_c_2)']")
 	 public WebElement musalaProfilPic;
 	
 	public void verifyMusalaProfilPicDisplayed()
