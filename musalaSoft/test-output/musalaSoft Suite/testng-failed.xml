@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [musalaSoft Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="regression Test(failed)">
+    <classes>
+      <class name="tests.ContacUsTest2withCSV">
+        <methods>
+          <include name="fillContactUsForm"/>
+          <include name="startDriver"/>
+          <include name="ScreenshotOnfailure"/>
+        </methods>
+      </class> <!-- tests.ContacUsTest2withCSV -->
+    </classes>
+  </test> <!-- regression Test(failed) -->
+</suite> <!-- Failed suite [musalaSoft Suite] -->

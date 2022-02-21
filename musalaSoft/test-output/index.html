@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-musalaSoft_Suite" class="navigator-link">
+              <span class="suite-name border-passed">musalaSoft Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-musalaSoft_Suite" class="navigator-link ">
+                    <span>D:\QIQLaptop\MuslaSoftTask\musalaSoft\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-musalaSoft_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-musalaSoft_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-musalaSoft_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-musalaSoft_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-musalaSoft_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-musalaSoft_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-musalaSoft_Suite" class="hide-methods passed suite-musalaSoft_Suite"> (hide)</a> <!-- hide-methods passed suite-musalaSoft_Suite -->
+                      <a href="#" panel-name="suite-musalaSoft_Suite" class="show-methods passed suite-musalaSoft_Suite"> (show)</a> <!-- show-methods passed suite-musalaSoft_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-musalaSoft_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.ApplyTest" class="method navigator-link" hash-for-method="OpenApplyPopup">OpenApplyPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.CreersTest" class="method navigator-link" hash-for-method="checkItemesDisplay">checkItemesDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.ApplyTest" class="method navigator-link" hash-for-method="fillApplyForm">fillApplyForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.ContacUsTest2withCSV" class="method navigator-link" hash-for-method="fillContactUsForm">fillContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.ApplyTest" class="method navigator-link" hash-for-method="filterOpenPositionsBySkopje">filterOpenPositionsBySkopje</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.ApplyTest" class="method navigator-link" hash-for-method="filterOpenPositionsBySofia">filterOpenPositionsBySofia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.CreersTest" class="method navigator-link" hash-for-method="naviagteToCareer">naviagteToCareer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.CreersTest" class="method navigator-link" hash-for-method="naviagteToPosition">naviagteToPosition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.ApplyTest" class="method navigator-link" hash-for-method="openCareerTab">openCareerTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="scrollDown">scrollDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.CompanyTest" class="method navigator-link" hash-for-method="verifyCompanyUrl">verifyCompanyUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.CompanyTest" class="method navigator-link" hash-for-method="verifyFacebookPage">verifyFacebookPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-musalaSoft_Suite" title="tests.CompanyTest" class="method navigator-link" hash-for-method="verifyLeadershipDisplayed">verifyLeadershipDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-musalaSoft_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-musalaSoft_Suite" class="panel musalaSoft_Suite">
+          <div class="suite-musalaSoft_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CompanyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanyUrl">
+                  </a> <!-- verifyCompanyUrl -->
+                  <span class="method-name">verifyCompanyUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacebookPage">
+                  </a> <!-- verifyFacebookPage -->
+                  <span class="method-name">verifyFacebookPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeadershipDisplayed">
+                  </a> <!-- verifyLeadershipDisplayed -->
+                  <span class="method-name">verifyLeadershipDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-musalaSoft_Suite-class-passed -->
+          <div class="suite-musalaSoft_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ApplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenApplyPopup">
+                  </a> <!-- OpenApplyPopup -->
+                  <span class="method-name">OpenApplyPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillApplyForm">
+                  </a> <!-- fillApplyForm -->
+                  <span class="method-name">fillApplyForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterOpenPositionsBySkopje">
+                  </a> <!-- filterOpenPositionsBySkopje -->
+                  <span class="method-name">filterOpenPositionsBySkopje</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterOpenPositionsBySofia">
+                  </a> <!-- filterOpenPositionsBySofia -->
+                  <span class="method-name">filterOpenPositionsBySofia</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openCareerTab">
+                  </a> <!-- openCareerTab -->
+                  <span class="method-name">openCareerTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-musalaSoft_Suite-class-passed -->
+          <div class="suite-musalaSoft_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollDown">
+                  </a> <!-- scrollDown -->
+                  <span class="method-name">scrollDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-musalaSoft_Suite-class-passed -->
+          <div class="suite-musalaSoft_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContacUsTest2withCSV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillContactUsForm">
+                  </a> <!-- fillContactUsForm -->
+                  <span class="method-name">fillContactUsForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-musalaSoft_Suite-class-passed -->
+          <div class="suite-musalaSoft_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CreersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkItemesDisplay">
+                  </a> <!-- checkItemesDisplay -->
+                  <span class="method-name">checkItemesDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="naviagteToCareer">
+                  </a> <!-- naviagteToCareer -->
+                  <span class="method-name">naviagteToCareer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="naviagteToPosition">
+                  </a> <!-- naviagteToPosition -->
+                  <span class="method-name">naviagteToPosition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-musalaSoft_Suite-class-passed -->
+        </div> <!-- panel musalaSoft_Suite -->
+        <div panel-name="test-xml-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QIQLaptop\MuslaSoftTask\musalaSoft\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;musalaSoft Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;regression Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.ContacUsTest2withCSV&quot;/&gt;
+      &lt;class name=&quot;tests.CompanyTest&quot;/&gt;
+      &lt;class name=&quot;tests.CreersTest&quot;/&gt;
+      &lt;class name=&quot;tests.ApplyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- regression Test --&gt;
+&lt;/suite&gt; &lt;!-- musalaSoft Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for musalaSoft Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">regression Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for musalaSoft Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for musalaSoft Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_musalaSoft_Suite');
+function tableData_musalaSoft_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'naviagteToCareer')
+data.setCell(0, 2, 'tests.CreersTest')
+data.setCell(0, 3, 16346);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fillContactUsForm')
+data.setCell(1, 2, 'tests.ContacUsTest2withCSV')
+data.setCell(1, 3, 8036);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'openCareerTab')
+data.setCell(2, 2, 'tests.ApplyTest')
+data.setCell(2, 3, 7837);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fillApplyForm')
+data.setCell(3, 2, 'tests.ApplyTest')
+data.setCell(3, 3, 5879);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFacebookPage')
+data.setCell(4, 2, 'tests.CompanyTest')
+data.setCell(4, 3, 4477);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'filterOpenPositionsBySofia')
+data.setCell(5, 2, 'tests.ApplyTest')
+data.setCell(5, 3, 4023);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'filterOpenPositionsBySkopje')
+data.setCell(6, 2, 'tests.ApplyTest')
+data.setCell(6, 3, 3966);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCompanyUrl')
+data.setCell(7, 2, 'tests.CompanyTest')
+data.setCell(7, 3, 3388);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'naviagteToPosition')
+data.setCell(8, 2, 'tests.CreersTest')
+data.setCell(8, 3, 2100);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'OpenApplyPopup')
+data.setCell(9, 2, 'tests.ApplyTest')
+data.setCell(9, 3, 211);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkItemesDisplay')
+data.setCell(10, 2, 'tests.CreersTest')
+data.setCell(10, 3, 135);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLeadershipDisplayed')
+data.setCell(11, 2, 'tests.CompanyTest')
+data.setCell(11, 3, 74);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'scrollDown')
+data.setCell(12, 2, 'tests.HomePageTest')
+data.setCell(12, 3, 17);
+window.suiteTableData['musalaSoft_Suite']= { tableData: data, tableDiv: 'times-div-musalaSoft_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-musalaSoft_Suite">
+              </div> <!-- times-div-musalaSoft_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for musalaSoft Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CompanyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ApplyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ContacUsTest2withCSV</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CreersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-musalaSoft_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">scrollDown</span>
+                <span class="method-start">26317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=scrollDown status=SUCCESS method=HomePageTest.scrollDown()[pri:0, instance:tests.Ho...)</span>
+                <span class="method-start">26339 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContacUsTest2withCSV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fillContactUsForm</span>
+                <span class="method-start">26344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=fillContactUsForm status=SUCCESS method=ContacUsTest2withCSV.fillContactUsForm()[pr...)</span>
+                <span class="method-start">34381 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CompanyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanyUrl</span>
+                <span class="method-start">34382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=verifyCompanyUrl status=SUCCESS method=CompanyTest.verifyCompanyUrl()[pri:1, instan...)</span>
+                <span class="method-start">37772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyLeadershipDisplayed</span>
+                <span class="method-start">37774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=verifyLeadershipDisplayed status=SUCCESS method=CompanyTest.verifyLeadershipDisplay...)</span>
+                <span class="method-start">37849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyFacebookPage</span>
+                <span class="method-start">37849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=verifyFacebookPage status=SUCCESS method=CompanyTest.verifyFacebookPage()[pri:3, in...)</span>
+                <span class="method-start">42327 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">naviagteToCareer</span>
+                <span class="method-start">42328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=naviagteToCareer status=SUCCESS method=CreersTest.naviagteToCareer()[pri:1, instanc...)</span>
+                <span class="method-start">58675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">naviagteToPosition</span>
+                <span class="method-start">58676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=naviagteToPosition status=SUCCESS method=CreersTest.naviagteToPosition()[pri:2, ins...)</span>
+                <span class="method-start">60778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkItemesDisplay</span>
+                <span class="method-start">60778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=checkItemesDisplay status=SUCCESS method=CreersTest.checkItemesDisplay()[pri:3, ins...)</span>
+                <span class="method-start">60914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ApplyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenApplyPopup</span>
+                <span class="method-start">60915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=OpenApplyPopup status=SUCCESS method=ApplyTest.OpenApplyPopup()[pri:1, instance:tes...)</span>
+                <span class="method-start">61127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fillApplyForm</span>
+                <span class="method-start">61128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=fillApplyForm status=SUCCESS method=ApplyTest.fillApplyForm()[pri:2, instance:tests...)</span>
+                <span class="method-start">67007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">openCareerTab</span>
+                <span class="method-start">67008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=openCareerTab status=SUCCESS method=ApplyTest.openCareerTab()[pri:3, instance:tests...)</span>
+                <span class="method-start">74846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">filterOpenPositionsBySofia</span>
+                <span class="method-start">74847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=filterOpenPositionsBySofia status=SUCCESS method=ApplyTest.filterOpenPositionsBySof...)</span>
+                <span class="method-start">78870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">filterOpenPositionsBySkopje</span>
+                <span class="method-start">78871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=filterOpenPositionsBySkopje status=SUCCESS method=ApplyTest.filterOpenPositionsBySk...)</span>
+                <span class="method-start">82837 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
